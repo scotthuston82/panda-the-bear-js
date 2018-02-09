@@ -38,4 +38,20 @@
 13. submit.disabled = true
 
 14. var bioInfo = document.querySelector('.bio-info')
-    bioInfo.style.display = "none"; 
+    bioInfo.style.display = "none";
+
+    --------Part 2 ----------------
+
+1.  var timeTravel = document.querySelector('#time-travel')
+    timeTravel.parentNode.removeChild(timeTravel)
+
+    ------- Adding Elements --------
+
+1.  var rightImage = document.querySelector('#right-image')
+    var rightImageClone = rightImage.cloneNode(true)
+    portpollio.appendChild(rightImageClone)
+​
+2.  for(var i = 0; i < 10; i++) {var rightImageClone = rightImage.cloneNode(true);
+    portpollio.appendChild(rightImageClone)}  
+
+3.          
